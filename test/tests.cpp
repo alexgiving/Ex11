@@ -6,6 +6,7 @@
 
 TEST(Train, test_add_cage) {
     Train train;
+    size_t N = 15;
     for (size_t i = 0; i < N; ++i) {
         Cage* cage = new Cage();
         train.addCage(cage);
