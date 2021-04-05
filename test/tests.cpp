@@ -43,6 +43,6 @@ TEST(Train, test3) {
     }
     size_t f2 = train.getLength();
     size_t expected = N + M;
-    size_t result = f1 + f2;
+    size_t result = f2;
     EXPECT_EQ(expected, result);
 }
